@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 90%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map">
+
+
+</div>
+<div>
+    <a href="photo-screen.html" class="btn btn-primary btn-lg  snp-button snp-button-primary ">Prendre une photo</a>
+</div>
+<script type="text/javascript" src="cordova.js" ></script>
+<script type="text/javascript" src="js/carte.js" ></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5ScAhhYLltAh5NYTRhiJI1BhGFxVTVHE&callback=initMap"
+        async defer></script>
+</body>
+</html>

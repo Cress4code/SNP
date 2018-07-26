@@ -1,0 +1,4 @@
+#Thu Jul 26 22:53:42 WAT 2018
+base.0=/Users/georgescress/SNP/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/georgescress/SNP/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
